@@ -1,0 +1,23 @@
+@RELATION toyexample
+
+@attribute a1 {0,1}
+@attribute a2 {0,1}
+@attribute a3 {0,1}
+@attribute a4 {0,1}
+@attribute a5 {0,1}
+@attribute a6 {0,1}
+@attribute a7 {0,1}
+@attribute a8 {0,1}
+@attribute a9 {0,1}
+@attribute a10 {0,1}
+@attribute a11 {0,1}
+@attribute a12 {0,1}
+@attribute a13 {0,1}
+@attribute class {cluster1,cluster2,cluster3}
+
+@DATA
+1,1,1,1,1,0,0,0,0,0,0,0,0,cluster1
+1,0,0,0,0,1,0,0,0,1,0,0,0,cluster2
+1,1,1,0,0,0,1,1,1,0,0,0,0,cluster1
+1,0,0,0,0,0,0,0,0,1,1,0,0,cluster2
+0,0,1,0,0,0,0,0,0,0,0,1,1,cluster3
